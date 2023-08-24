@@ -1,0 +1,7 @@
+{
+  "API_URL": "https://api.github.com/",
+  "FILE_URL": "",
+  "WEB_VIEW_URL": "http://192.168.0.239:8080/",
+  "CONNECT_TIME_OUT": 10000,
+  "READ_TIME_OUT": 10000
+}

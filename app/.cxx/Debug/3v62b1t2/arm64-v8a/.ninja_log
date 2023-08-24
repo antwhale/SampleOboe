@@ -1,0 +1,19 @@
+# ninja log v5
+2	409	1692779457104393852	CMakeFiles/native-lib.dir/utils/UtilityFunctions.cpp.o	5f80e0463306030d
+0	21	1692779564678197269	build.ninja	5e81fd072ef45c7a
+2	545	1692779457243577365	CMakeFiles/native-lib.dir/native-lib.cpp.o	7335286f7288cca7
+0	3	0	clean	75f8be3a65e39aac
+3	641	1692779565389228546	CMakeFiles/native-lib.dir/utils/UtilityFunctions.cpp.o	a3fe05cfadf6ae76
+0	3	0	clean	75f8be3a65e39aac
+0	3	0	clean	75f8be3a65e39aac
+3	503	1692779708766073248	CMakeFiles/native-lib.dir/utils/UtilityFunctions.cpp.o	a3fe05cfadf6ae76
+0	3	0	clean	75f8be3a65e39aac
+4	295	1692779757510229716	CMakeFiles/native-lib.dir/utils/UtilityFunctions.cpp.o	a3fe05cfadf6ae76
+0	3	0	clean	75f8be3a65e39aac
+3	282	1692779773516412628	CMakeFiles/native-lib.dir/utils/UtilityFunctions.cpp.o	a3fe05cfadf6ae76
+2	540	1692779773778459099	CMakeFiles/native-lib.dir/native-lib.cpp.o	4848aa1f3121514b
+2	554	1692783300239894301	CMakeFiles/native-lib.dir/audio/Player.cpp.o	aacb44523402308a
+2	578	1692783300266568486	CMakeFiles/native-lib.dir/audio/NDKExtractor.cpp.o	c4f75083ea0139f3
+1	588	1692783300277138201	CMakeFiles/native-lib.dir/audio/AAssetDataSource.cpp.o	387c08220d29f5c9
+1	673	1692783405931190191	CMakeFiles/native-lib.dir/AudioPlayer.cpp.o	2b00af179b61e31a
+673	747	1692783406012248288	/Users/2beone/StudioProjects/BooBaseSample/app/build/intermediates/cxx/Debug/3v62b1t2/obj/arm64-v8a/libnative-lib.so	bb37012ae328db65

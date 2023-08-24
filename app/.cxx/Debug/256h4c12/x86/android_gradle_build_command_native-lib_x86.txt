@@ -1,0 +1,7 @@
+Executable : /Users/2beone/Library/Android/sdk/cmake/3.22.1/bin/ninja
+arguments : 
+-C
+/Users/2beone/StudioProjects/BooBaseSample/app/.cxx/Debug/256h4c12/x86
+native-lib
+jvmArgs : 
+

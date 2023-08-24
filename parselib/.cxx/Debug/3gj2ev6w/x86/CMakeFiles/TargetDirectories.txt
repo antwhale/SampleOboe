@@ -1,0 +1,3 @@
+/Users/2beone/StudioProjects/oboe-codelab/samples/parselib/.cxx/Debug/3gj2ev6w/x86/CMakeFiles/rebuild_cache.dir
+/Users/2beone/StudioProjects/oboe-codelab/samples/parselib/.cxx/Debug/3gj2ev6w/x86/CMakeFiles/edit_cache.dir
+/Users/2beone/StudioProjects/oboe-codelab/samples/parselib/.cxx/Debug/3gj2ev6w/x86/CMakeFiles/parselib.dir

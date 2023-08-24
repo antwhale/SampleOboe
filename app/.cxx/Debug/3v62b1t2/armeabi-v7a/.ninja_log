@@ -1,0 +1,14 @@
+# ninja log v5
+6	386	1692779457706504747	CMakeFiles/native-lib.dir/utils/UtilityFunctions.cpp.o	c86180e5b5a41832
+1	47	1692779565753683551	build.ninja	b528e5be61972394
+3	742	1692779458065515456	CMakeFiles/native-lib.dir/native-lib.cpp.o	2b9cf73dcc6c9b0
+0	3	0	clean	75f8be3a65e39aac
+2	314	1692779566086974084	CMakeFiles/native-lib.dir/utils/UtilityFunctions.cpp.o	896b9c2bc939fe85
+0	4	0	clean	75f8be3a65e39aac
+0	3	0	clean	75f8be3a65e39aac
+2	372	1692779709279226681	CMakeFiles/native-lib.dir/utils/UtilityFunctions.cpp.o	896b9c2bc939fe85
+0	4	0	clean	75f8be3a65e39aac
+3	265	1692779758017609850	CMakeFiles/native-lib.dir/utils/UtilityFunctions.cpp.o	896b9c2bc939fe85
+1	5	0	clean	75f8be3a65e39aac
+1	260	1692779774050199110	CMakeFiles/native-lib.dir/utils/UtilityFunctions.cpp.o	896b9c2bc939fe85
+1	541	1692779774331439119	CMakeFiles/native-lib.dir/native-lib.cpp.o	91d5817c6efade79

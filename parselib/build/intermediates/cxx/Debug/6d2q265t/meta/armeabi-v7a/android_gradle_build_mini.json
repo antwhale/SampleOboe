@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/2beone/StudioProjects/BooBaseSample/parselib/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/2beone/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/2beone/StudioProjects/BooBaseSample/parselib/.cxx/Debug/6d2q265t/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/2beone/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/2beone/StudioProjects/BooBaseSample/parselib/.cxx/Debug/6d2q265t/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "parselib::@6890427a1f51a3e7e1df": {
+      "artifactName": "parselib",
+      "abi": "armeabi-v7a",
+      "output": "/Users/2beone/StudioProjects/BooBaseSample/parselib/.cxx/Debug/6d2q265t/armeabi-v7a/libparselib.a",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,3 @@
+/Users/2beone/StudioProjects/BooBaseSample/parselib/.cxx/Debug/6d2q265t/x86/CMakeFiles/rebuild_cache.dir
+/Users/2beone/StudioProjects/BooBaseSample/parselib/.cxx/Debug/6d2q265t/x86/CMakeFiles/edit_cache.dir
+/Users/2beone/StudioProjects/BooBaseSample/parselib/.cxx/Debug/6d2q265t/x86/CMakeFiles/parselib.dir

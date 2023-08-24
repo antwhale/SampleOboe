@@ -1,0 +1,104 @@
+ninja: Entering directory `/Users/2beone/StudioProjects/BooBaseSample/app/.cxx/Debug/256h4c12/arm64-v8a'
+[1/6] Building CXX object CMakeFiles/native-lib.dir/utils/UtilityFunctions.cpp.o
+[2/6] Building CXX object CMakeFiles/native-lib.dir/audio/AAssetDataSource.cpp.o
+FAILED: CMakeFiles/native-lib.dir/audio/AAssetDataSource.cpp.o 
+/Users/2beone/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/2beone/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/2beone/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/src/main/cpp -I/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/../../../../shared -isystem /Users/2beone/.gradle/caches/transforms-3/be171cc19768883435f535b93f53fd42/transformed/jetified-oboe-1.5.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native-lib.dir/audio/AAssetDataSource.cpp.o -MF CMakeFiles/native-lib.dir/audio/AAssetDataSource.cpp.o.d -o CMakeFiles/native-lib.dir/audio/AAssetDataSource.cpp.o -c /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/AAssetDataSource.cpp
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/AAssetDataSource.cpp:20:
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/AAssetDataSource.h:21:
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/DataSource.h:21:
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../AudioPlayer.h:15:
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../audio/Player.h:42:28: error: use of undeclared identifier 'DataSource'
+    Player(std::shared_ptr<DataSource> source)
+                           ^
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../audio/Player.h:42:28: error: use of undeclared identifier 'DataSource'
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../audio/Player.h:55:21: error: use of undeclared identifier 'DataSource'
+    std::shared_ptr<DataSource> mSource;
+                    ^
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/AAssetDataSource.cpp:29:
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/NDKExtractor.h:23:10: fatal error: 'GameConstants.h' file not found
+#include <GameConstants.h>
+         ^~~~~~~~~~~~~~~~~
+4 errors generated.
+[3/6] Building CXX object CMakeFiles/native-lib.dir/audio/Player.cpp.o
+FAILED: CMakeFiles/native-lib.dir/audio/Player.cpp.o 
+/Users/2beone/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/2beone/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/2beone/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/src/main/cpp -I/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/../../../../shared -isystem /Users/2beone/.gradle/caches/transforms-3/be171cc19768883435f535b93f53fd42/transformed/jetified-oboe-1.5.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native-lib.dir/audio/Player.cpp.o -MF CMakeFiles/native-lib.dir/audio/Player.cpp.o.d -o CMakeFiles/native-lib.dir/audio/Player.cpp.o -c /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/Player.cpp
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/Player.cpp:17:
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../audio/Player.h:30:
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/DataSource.h:21:
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../AudioPlayer.h:16:
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../audio/AAssetDataSource.h:23:33: error: expected class name
+class AAssetDataSource : public DataSource {
+                                ^
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../audio/AAssetDataSource.h:26:29: error: only virtual member functions can be marked 'override'
+    int64_t getSize() const override { return mBufferSize; }
+                            ^~~~~~~~~
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../audio/AAssetDataSource.h:27:5: error: unknown type name 'AudioProperties'
+    AudioProperties getProperties() const override { return mProperties; }
+    ^
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../audio/AAssetDataSource.h:28:34: error: only virtual member functions can be marked 'override'
+    const float* getData() const override { return mBuffer.get(); }
+                                 ^~~~~~~~~
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../audio/AAssetDataSource.h:33:13: error: unknown type name 'AudioProperties'
+            AudioProperties targetProperties);
+            ^
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../audio/AAssetDataSource.h:38:28: error: unknown type name 'AudioProperties'
+                     const AudioProperties properties)
+                           ^
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../audio/AAssetDataSource.h:46:11: error: unknown type name 'AudioProperties'
+    const AudioProperties mProperties;
+          ^
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/Player.cpp:17:
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../audio/Player.h:30:
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/DataSource.h:21:
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../AudioPlayer.h:46:21: error: use of undeclared identifier 'Player'
+    std::unique_ptr<Player> mBackingTrack;
+                    ^
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../AudioPlayer.h:47:21: error: use of undeclared identifier 'Player'
+    std::unique_ptr<Player> mClap;
+                    ^
+9 errors generated.
+[4/6] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/native-lib.cpp:57:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+[5/6] Building CXX object CMakeFiles/native-lib.dir/AudioPlayer.cpp.o
+FAILED: CMakeFiles/native-lib.dir/AudioPlayer.cpp.o 
+/Users/2beone/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/2beone/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/2beone/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/src/main/cpp -I/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/../../../../shared -isystem /Users/2beone/.gradle/caches/transforms-3/be171cc19768883435f535b93f53fd42/transformed/jetified-oboe-1.5.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native-lib.dir/AudioPlayer.cpp.o -MF CMakeFiles/native-lib.dir/AudioPlayer.cpp.o.d -o CMakeFiles/native-lib.dir/AudioPlayer.cpp.o -c /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/AudioPlayer.cpp
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/AudioPlayer.cpp:8:
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../AudioPlayer.h:15:
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/Player.h:30:
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/DataSource.h:29:13: error: unknown type name 'AudioProperties'
+    virtual AudioProperties getProperties() const  = 0;
+            ^
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/AudioPlayer.cpp:8:
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/../AudioPlayer.h:16:
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/AAssetDataSource.h:27:5: error: unknown type name 'AudioProperties'
+    AudioProperties getProperties() const override { return mProperties; }
+    ^
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/AAssetDataSource.h:33:13: error: unknown type name 'AudioProperties'
+            AudioProperties targetProperties);
+            ^
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/AAssetDataSource.h:38:28: error: unknown type name 'AudioProperties'
+                     const AudioProperties properties)
+                           ^
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/AAssetDataSource.h:46:11: error: unknown type name 'AudioProperties'
+    const AudioProperties mProperties;
+          ^
+In file included from /Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/AudioPlayer.cpp:5:
+In file included from /Users/2beone/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/thread:90:
+In file included from /Users/2beone/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/functional:504:
+/Users/2beone/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/memory:3003:32: error: no matching constructor for initialization of 'Player'
+    return unique_ptr<_Tp>(new _Tp(_VSTD::forward<_Args>(__args)...));
+                               ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/AudioPlayer.cpp:86:26: note: in instantiation of function template specialization 'std::__ndk1::make_unique<Player, std::__ndk1::shared_ptr<AAssetDataSource> &>' requested here
+    mBackingTrack = std::make_unique<Player>(mTrackSource);
+                         ^
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/Player.h:32:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'std::__ndk1::shared_ptr<AAssetDataSource>' to 'const Player' for 1st argument
+class Player : public IRenderableAudio{
+      ^
+/Users/2beone/StudioProjects/BooBaseSample/app/src/main/cpp/audio/Player.h:42:5: note: candidate constructor not viable: no known conversion from 'shared_ptr<AAssetDataSource>' to 'shared_ptr<DataSource>' for 1st argument
+    Player(std::shared_ptr<DataSource> source)
+    ^
+6 errors generated.
+ninja: build stopped: subcommand failed.

@@ -1,0 +1,37 @@
+{
+  "buildFiles": [
+    "/Users/2beone/StudioProjects/BooBaseSample/parselib/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/2beone/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/2beone/StudioProjects/BooBaseSample/parselib/.cxx/Debug/6d2q265t/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/2beone/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/2beone/StudioProjects/BooBaseSample/parselib/.cxx/Debug/6d2q265t/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "parselib::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "parselib",
+      "output": "/Users/2beone/StudioProjects/BooBaseSample/parselib/.cxx/Debug/6d2q265t/x86_64/libparselib.a"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/2beone/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/2beone/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

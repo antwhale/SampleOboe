@@ -1,0 +1,3 @@
+/Users/2beone/StudioProjects/BooBaseSample/app/.cxx/Debug/256h4c12/arm64-v8a/CMakeFiles/native-lib.dir
+/Users/2beone/StudioProjects/BooBaseSample/app/.cxx/Debug/256h4c12/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/2beone/StudioProjects/BooBaseSample/app/.cxx/Debug/256h4c12/arm64-v8a/CMakeFiles/rebuild_cache.dir

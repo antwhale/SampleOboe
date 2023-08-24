@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BooBaseSample.iml" filepath="$PROJECT_DIR$/.idea/modules/BooBaseSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BooBaseSample.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BooBaseSample.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BooBaseSample.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BooBaseSample.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BooBaseSample.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BooBaseSample.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BooBaseSample.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BooBaseSample.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iolib/BooBaseSample.iolib.iml" filepath="$PROJECT_DIR$/.idea/modules/iolib/BooBaseSample.iolib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iolib/BooBaseSample.iolib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/iolib/BooBaseSample.iolib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iolib/BooBaseSample.iolib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/iolib/BooBaseSample.iolib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iolib/BooBaseSample.iolib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/iolib/BooBaseSample.iolib.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/parselib/BooBaseSample.parselib.iml" filepath="$PROJECT_DIR$/.idea/modules/parselib/BooBaseSample.parselib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/parselib/BooBaseSample.parselib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/parselib/BooBaseSample.parselib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/parselib/BooBaseSample.parselib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/parselib/BooBaseSample.parselib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/parselib/BooBaseSample.parselib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/parselib/BooBaseSample.parselib.unitTest.iml" />
+    </modules>
+  </component>
+</project>
